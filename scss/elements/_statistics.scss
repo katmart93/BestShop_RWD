@@ -1,0 +1,78 @@
+.statistics {
+  &__container {
+    max-width: 85vw;
+    margin: 0 auto;
+  }
+
+  &__title {
+    font-family: $font-secondary;
+    font-size: 1.9em;
+    text-align: center;
+    padding-top: 1em;
+  }
+
+  &__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4em;
+    text-align: center;
+  }
+
+  &__circle {
+    width: 63px;
+    height: 63px;
+    border-radius: 50%;
+    position: relative;
+    &__pink {
+      background-color: $pink-elements;
+    }
+
+    &__blue {
+      background-color: $blue-elements-primary;
+    }
+
+    &__green {
+      background-color: $green-elements;
+    }
+  }
+
+  &__img {
+    position: absolute;
+    &__person {
+      top: 0;
+      left: 45%;
+    }
+
+    &__eye {
+      top: 20%;
+      left: 35%;
+    }
+
+    &__catalog {
+      top: 10%;
+      left: 45%;
+    }
+  }
+
+  &__number {
+    font-family: $font-secondary;
+    font-size: 1.2em;
+    font-weight: 800;
+    letter-spacing: 0.4em;
+    margin: 1.2em 0;
+  }
+
+  &__description {
+    color: $gray-elements;
+  }
+}
+
+@media screen and (min-width: 426px) {
+  .statistics {
+    &__wrapper {
+      display: flex;
+      justify-content: space-evenly;
+    }
+  }
+}

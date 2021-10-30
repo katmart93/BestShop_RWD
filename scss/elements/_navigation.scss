@@ -1,0 +1,16 @@
+.header {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  padding: 1em 0;
+
+  &__container {
+    max-width: 85vw;
+    margin: 0 auto;
+  }
+
+  &__logo {
+    color: $blue-elements-primary;
+    font-size: 2em;
+    font-family: $font-secondary;
+    text-decoration: none;
+  }
+}
