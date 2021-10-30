@@ -2,19 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c82345db-2b4d-4750-8ee8-f3c63b25fc0a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/BestShop_RWD.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/elements/_banner.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/elements/_banner.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/elements/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/elements/_base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/elements/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/elements/_buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/elements/_navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/elements/_navigation.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/elements/_benefits.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/elements/_benefits.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/elements/_statistics.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/elements/_statistics.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/settings/_fonts.scss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/settings/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/settings/_variables.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +43,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1635577887001</updated>
-      <workItem from="1635577888767" duration="25831000" />
+      <workItem from="1635577888767" duration="29476000" />
     </task>
     <servers />
   </component>
