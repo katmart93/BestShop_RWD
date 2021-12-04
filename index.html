@@ -101,8 +101,34 @@
         </div>
     </section>
 
-    <section class = calculator>
-
+    <section class="calculator">
+        <div class="calculator__container">
+            <div class="calculator__title">Calculate how much you’ll pay</div>
+            <div class="calculator__content">
+                <div class="calculator__inputs">
+                    <form>
+                        <input type="number" id="products-quantity" name="products-quantity" min="1" placeholder="Products quantity">
+                        <input type="number" id="monthly-orders" name="monthly-orders" min="1" placeholder="Estimated orders in month">
+                        <select id="package-choice" name="package-choice">
+                            <option value="" disabled selected hidden class="no-option-chosen">Choose package</option>
+                            <option value="basic">Basic</option>
+                            <option value="professional">Professional</option>
+                            <option value="premium">Premium</option>
+                        </select>
+                    </form>
+                </div>
+                <div class="calculator__outputs">
+                    <div class="output__elem products d-none"></div>
+                    <div class="output__elem orders d-none"></div>
+                    <div class="output__elem package d-none"></div>
+                    <div class="output__elem accounting d-none"></div>
+                    <div class="output__elem terminal d-none"></div>
+                    <div class="output__total__elem total"></div>
+                </div>
+            </div>
+        </div>
     </section>
+
+    <script src=js/app.js></script>
 </body>
 </html>
