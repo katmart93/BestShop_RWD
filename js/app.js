@@ -38,3 +38,17 @@ packageChoice.addEventListener("click", function() {
        packageOutput.innerText = `Package ${premiumDropdown.value} $${packagePrices[2]}`;
    }
 });
+
+function totalValue() {
+    if (basicDropdown.selected) {
+        totalOutput.innerText = `${productsQuantity.value * 0.5 + monthlyOrders.value * 0.25 + packagePrices[0]}`;
+    } else if (professionalDropdown.selected) {
+        totalOutput.innerText = `${productsQuantity.value * 0.5 + monthlyOrders.value * 0.25 + packagePrices[1]}`;
+    } else if (premiumDropdown.selected) {
+        totalOutput.innerText = `${productsQuantity.value * 0.5 + monthlyOrders.value * 0.25 + packagePrices[2]}`;
+    }
+}
+
+productsQuantity.addEventListener("keyup", totalValue);
+monthlyOrders.addEventListener("keyup", totalValue);
+packageChoice.addEventListener("click", totalValue);
