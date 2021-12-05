@@ -9,27 +9,32 @@ const premiumDropdown = document.querySelector("option[value=premium]");
 const productsOutput = document.querySelector(".products");
 const ordersOutput = document.querySelector(".orders");
 const packageOutput = document.querySelector(".package");
+const totalOutput = document.querySelector(".total span");
+
+const packagePrices = [0, 25, 60];
 
 
 productsQuantity.addEventListener("keyup", function() {
     productsOutput.style.display = "block";
     productsOutput.innerText = `Products ${productsQuantity.value} * 0.5$ $${productsQuantity.value * 0.5}`;
+    totalOutput.innerText = `${productsQuantity.value * 0.5 + monthlyOrders.value * 0.25}`;
 });
 
 monthlyOrders.addEventListener("keyup", function() {
     ordersOutput.style.display = "block";
     ordersOutput.innerText = `Orders ${monthlyOrders.value} * 0.25 $${monthlyOrders.value * 0.25}`;
+    totalOutput.innerText = `${productsQuantity.value * 0.5 + monthlyOrders.value * 0.25}`;
 });
 
 packageChoice.addEventListener("click", function() {
    if (basicDropdown.selected) {
        packageOutput.style.display = "block";
-       packageOutput.innerText = `Package ${basicDropdown.value} $0`;
+       packageOutput.innerText = `Package ${basicDropdown.value} $${packagePrices[0]}`;
    } else if (professionalDropdown.selected) {
        packageOutput.style.display = "block";
-       packageOutput.innerText = `Package ${professionalDropdown.value} $25`;
+       packageOutput.innerText = `Package ${professionalDropdown.value} $${packagePrices[1]}`;
    } else if (premiumDropdown.selected) {
        packageOutput.style.display = "block";
-       packageOutput.innerText = `Package ${premiumDropdown.value} $60`;
+       packageOutput.innerText = `Package ${premiumDropdown.value} $${packagePrices[2]}`;
    }
 });
